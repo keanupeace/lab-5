@@ -1,0 +1,30 @@
+@use "variables" as *;
+
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  
+}
+.text {
+  padding: 4vw;
+
+}
+img {
+  padding: 2vw;
+}
+.recipe:hover {
+  color: $color__HELPIMHUNGRY;
+}
+.cakes {
+ display: flex; 
+ align-items: flex-start;
+ justify-content: space-between;
+ 
+}
+.cakes img {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0%;
+}

@@ -1,0 +1,42 @@
+@use "variables" as *;
+
+@media screen and (max-width: 1000px) {
+  
+  .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+  position: relative;
+  padding: 4vw;
+}
+.menu {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: $color__lightyellow;
+  z-index: 10;
+}
+.menu-parent:hover .sub-menu {
+  width: 100%;
+  position: static;
+}
+.menu-toggle {
+  display: block;
+  color: $color__black;
+}
+.menu.show {
+  display: block;
+  padding: 3vw;
+  
+}
+.text {
+  padding: 15vw;
+}
+li {
+  padding: 3vw;
+}
+}
